@@ -5,7 +5,7 @@
  * main - program that prints out the pid
  * Return: 0
  */
-int main()
+int main(void)
 {
 	/*pid_t-datatype for the process ID*/
 	pid_t pid;
