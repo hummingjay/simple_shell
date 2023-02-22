@@ -11,6 +11,9 @@
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <stddef.h>
+#define size_t unsigned long
+
 
 /* for read/write buffers */
 #define READ_BUF_SIZE 1024
