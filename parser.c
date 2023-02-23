@@ -1,6 +1,5 @@
-parser.c
-
 #include "shell.h"
+#include <stddef.h>
 
 /**
  * is_cmd - determines if a file is an executable command
